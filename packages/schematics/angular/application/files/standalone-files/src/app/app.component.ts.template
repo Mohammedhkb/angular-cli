@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';<% } %>
     <h1>Welcome to {{title}}!</h1>
 
     <% if (routing) {
-     %><router-outlet></router-outlet><%
+     %><router-outlet /><%
     } %>
   `,<% } else { %>
   templateUrl: './app.component.html',<% } if(inlineStyle) { %>
